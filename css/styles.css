@@ -206,27 +206,42 @@ font-family: 'Jost', sans-serif;
   line-height: 1.5;
   color: #FD221E;
   font-style: italic;
-padding-top: 5%;
-
+  padding-top: 5%;
 }
 
 .section-subheading {
-
-  padding: 0 5% 0 5%;
-
+  padding: 0 20% 0 20%;
 }
 
 
+.pricing-column .col-lg-4 {
+ 
+ padding: 0;
+margin: 0;
+}
 
+
+.pricing-column .col-md-6 {
+ margin: 0;
+ padding: 0;
+
+}
+#pricing .row {
+ padding: 0;
+ margin: 0;
+}
 
 .pricing-section {
-  margin-top: 4%;
-padding-left: 9%;
+ 
 }
+.card-deck {
+
+}
+#pricing .row {
+  margin-top: 4%;
 
 
-
-
+}
  
  .card {
    text-decoration: none;
@@ -239,6 +254,9 @@ padding-left: 9%;
    box-shadow: 0 1px 3px rgba(44, 46, 65, .15);
    transition: all 0.3s ease-in-out;
      font-family: 'Noto Sans', sans-serif;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
  .card .card-header {
    padding-bottom: 90%;
@@ -616,6 +634,11 @@ form{
 }
 
 
+#title {
+
+padding-bottom: 5%;
+
+}
 }
 
 @media (max-width: 991px) {
@@ -668,10 +691,6 @@ height: 250px;
   margin-left: auto;
   margin-right: auto;
 
-}
-
-#title {
-  padding-bottom: 8%;
 }
 
 }
