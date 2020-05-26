@@ -1,7 +1,7 @@
 
 /* Navbar Shrink */
 
-
+/*
 $(function(){
   $(window).scroll(function() {
      if($(window).scrollTop() >= 100) {
@@ -15,7 +15,7 @@ $(function(){
     }
   });
 });
-
+*/
 
 /* Smooth SCrolling */
 
