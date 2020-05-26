@@ -206,21 +206,22 @@ font-family: 'Jost', sans-serif;
   line-height: 1.5;
   color: #FD221E;
   font-style: italic;
-
+padding-top: 5%;
 
 }
 
 .section-subheading {
-  margin-top: 2%;
+
+  padding: 0 5% 0 5%;
+
 }
 
-#pricing {
-padding-top: 5%;
-}
+
 
 
 .pricing-section {
   margin-top: 4%;
+padding-left: 9%;
 }
 
 
@@ -667,6 +668,10 @@ height: 250px;
   margin-left: auto;
   margin-right: auto;
 
+}
+
+#title {
+  padding-bottom: 8%;
 }
 
 }
