@@ -90,3 +90,11 @@ new TypeIt("#testimonial-letter2", {
   speed: 50,
   waitUntilVisible: true
 }).go();
+
+
+new TypeIt(".section-subheading", {
+  strings: "Simple and affordable price plans for you and your friends.",
+  speed: 40,
+  waitUntilVisible: true
+}).go();
+
