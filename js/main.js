@@ -19,6 +19,11 @@ $(function(){
 
 /* Smooth SCrolling */
 
+
+
+
+
+
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -98,3 +103,11 @@ new TypeIt(".section-subheading", {
   waitUntilVisible: true
 }).go();
 
+
+
+/* Loading Animation */
+
+
+ $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(1500);
+        });
