@@ -396,7 +396,6 @@ font-family: 'IBM Plex Serif', serif;
 color: #E19120;
 }
 
-
 /* Subscribe Section */
 
 .login-content .input-div{
@@ -406,6 +405,7 @@ color: #E19120;
     margin: 25px 0;
     padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
+    padding-top: 15%;
 }
 
 .login-content .input-div.one{
@@ -499,10 +499,7 @@ color: #E19120;
 
 .login-content{
 
-   border-radius: 1px;
-
-  box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.11);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   
 
 padding: 10%;
 
@@ -514,7 +511,7 @@ padding: 10%;
 }
 
 .login-content:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.23);
+  
 }
 
 
@@ -611,6 +608,7 @@ form{
 
 
 
+
 @media (max-width: 1044px) {
 
 .desktop-button {
@@ -694,9 +692,17 @@ height: 250px;
 }
 
 
+@media (max-width: 609px) {
+
+.big-heading {
+  font-size: 2.5rem;
+}
+
+
+
 #title {
 
-padding-bottom: 8%;
+padding-bottom: 10%;
 
 }
 
