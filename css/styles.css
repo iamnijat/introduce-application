@@ -206,7 +206,7 @@ font-family: 'Jost', sans-serif;
   line-height: 1.5;
   color: #FD221E;
   font-style: italic;
-  text-align: center;
+
 
 }
 
@@ -215,7 +215,7 @@ font-family: 'Jost', sans-serif;
 }
 
 #pricing {
-  padding: 100px;
+padding-top: 5%;
 }
 
 
